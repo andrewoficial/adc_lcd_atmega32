@@ -2,7 +2,11 @@
 This program was created by the
 CodeWizardAVR V3.12 Advanced
 Automatic Program Generator
-� Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+
+
+
+© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+
 http://www.hpinfotech.com
 
 Project :
@@ -172,7 +176,10 @@ TWCR=(0<<TWEA) | (0<<TWSTA) | (0<<TWSTO) | (0<<TWEN) | (0<<TWIE);
 // D6 - PORTB Bit 6
 // D7 - PORTB Bit 7
 // Characters/line: 8
-lcd_init(16);
+
+
+lcd_init(16); //инициализация экранчика
+
 
 while (1)
       {
