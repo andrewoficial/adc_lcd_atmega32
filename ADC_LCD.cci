@@ -1,0 +1,10 @@
+VERSION:3 SOURCE_TIMESTAMP:4AB3A50E
+NODE:I LEVEL:0 LINE:24 "C:\cvavr312\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr312\inc\stdio.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavr312\inc\delay.h"
+NODE:I LEVEL:0 LINE:31 "C:\cvavr312\inc\alcd.h"
+NODE:V LEVEL:0 LINE:33 "lcd_buffer -> RAM:????"
+NODE:V LEVEL:0 LINE:34 "TEST -> RAM:????"
+NODE:M LEVEL:0 LINE:39 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:42 "read_adc(unsigned char adc_input)"
+NODE:F LEVEL:0 LINE:55 "main(void)"
