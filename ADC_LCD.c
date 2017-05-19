@@ -2,7 +2,11 @@
 This program was created by the
 CodeWizardAVR V3.12 Advanced
 Automatic Program Generator
+
+
+
 © Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+
 http://www.hpinfotech.com
 
 Project :
@@ -172,11 +176,18 @@ TWCR=(0<<TWEA) | (0<<TWSTA) | (0<<TWSTO) | (0<<TWEN) | (0<<TWIE);
 // D6 - PORTB Bit 6
 // D7 - PORTB Bit 7
 // Characters/line: 8
+
+
 lcd_init(16); //инициализация экранчика
+
 
 while (1)
       {
 
-
+      read_adc(0);
+      TEST=((5.00*ADCW)/1024.00);
+      sprintf(lcd_buffer , "IZMER =%2.2f" , TEST);
+      lcd_puts(lcd_buffer);
+      lcd_clear();
       }
 }
